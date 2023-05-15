@@ -20,3 +20,8 @@ label{
   margin:auto;
   
 }
+
+input[type=radio]
+{
+  -webkit-transform: scale(0.75); 
+}
