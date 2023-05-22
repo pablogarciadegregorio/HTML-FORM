@@ -11,10 +11,12 @@
     <title>HTML form</title>
 </head>
 <body>
-    <div class="container justify-content-center pe-0 ps-0 m-5 border rounded">
+    <div class="container justify-content-center pe-0 ps-0 mt-5 border rounded">
         <h3 class="bg-light ps-3 pt-2 pb-2 border-bottom">Payment Form Example</h3>
         <div class="alert alert-danger ms-3 me-3 mt-3 p-2"> Some Fields are missing</div>
-            <form class="row  p-3">
+
+
+            <form class="row   m-0  ">
               
                 <!-- PRIMER BLOQUE -->
             <div class=" col-5 mb-3 ps-3 pe-3">
@@ -89,7 +91,7 @@
             </div>
 
     
-            <div class="col-6" >
+            <div class="col-6 " >
                 <label class="mb-2">Message</label>
                 <div class="form-floating">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
@@ -98,13 +100,14 @@
                   </div>
             </div>
         
+            <div class="bg-light border-top d-flex justify-content-end g-3 m-0 p-3">
+                <button type="submit" class="btn btn-secondary">Cancel</button>
+                <button type="submit" class="btn btn-primary ms-3">Send</button>
+            </div>
 
             
         </form>
-        <div class="bg-light border-top p-3 d-flex justify-content-end g-3">
-            <button type="submit" class="btn btn-secondary">Cancel</button>
-            <button type="submit" class="btn btn-primary ms-3">Send</button>
-        </div>
+        
     </div>
     
 
